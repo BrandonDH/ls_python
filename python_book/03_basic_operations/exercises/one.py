@@ -1,0 +1,1 @@
+print("Brandon " + "Herford") # Combine two strings with the addition operator.

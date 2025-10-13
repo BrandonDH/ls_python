@@ -1,0 +1,2 @@
+# The following expression will evaluate to True, becuase when comparing strings python parses and compares a character at a time, so the first comparison is '1' < '9' and since '9' is the only character on the right side of the operator its evaluation stops here. '1' is less than '9'. I'm not sure if it evaluates their ASCII value or converts them to integers and compares them though.
+print('12' < '9')
