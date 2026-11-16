@@ -22,14 +22,19 @@
 # well_howdy('Angie')
 # print(greeting)
 
-def scope_test():
-    if True:
-        foo ='Hello'
-    else:
-        bar = 'Goodbye'
+# def scope_test():
+#     if True:
+#         foo ='Hello'
+#     else:
+#         bar = 'Goodbye'
 
-    print(foo) # 'Hello'
-    print(bar) # name error
+#     print(foo) # 'Hello'
+#     print(bar) # name error
 
-scope_test() # UnboundLocalError: cannot access local variable 'bar' where it is not associated with a value
+# scope_test() # UnboundLocalError: cannot access local variable 'bar' where it is not associated with a value
 
+def add(a, b):
+    return a + b
+
+two_and_three = add(2, 3)
+print(two_and_three)
